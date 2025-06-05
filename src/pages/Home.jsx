@@ -66,13 +66,13 @@ const Home = () => {
         transition={{ duration: 0.8 }}
       >
         <div className="max-w-7xl mx-auto text-center">
-          <motion.h2 
+<motion.h2 
             className="text-4xl sm:text-5xl lg:text-6xl font-bold text-surface-900 mb-6"
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
-            Find Your <span className="text-gradient">Dream Property</span>
+            Live in your <span className="text-gradient">dream property</span>
           </motion.h2>
           <motion.p 
             className="text-lg sm:text-xl text-surface-600 mb-8 max-w-3xl mx-auto"
